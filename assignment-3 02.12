@@ -1,0 +1,8 @@
+def is_leap(year):
+    if(year%4==0):
+        print("Yes")
+    else:
+        print("No")
+
+year = int(input("Enter year: "))
+is_leap(year)
