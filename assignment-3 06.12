@@ -1,0 +1,12 @@
+n = int(input())
+temp = n
+b = len(str(n))
+sum1 = 0
+while n != 0:
+    r = n % 10
+    sum1 = sum1+(r**b)
+    n = n//10
+if temp == sum1:
+    print("armstrong number")
+else:
+    print("not armstrong number")
