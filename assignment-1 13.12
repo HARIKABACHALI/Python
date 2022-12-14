@@ -1,0 +1,6 @@
+ap=['kkd','vskp','sklm','amlpm']
+ap.sort()
+print(ap)
+
+output:
+['amlpm', 'kkd', 'sklm', 'vskp']
