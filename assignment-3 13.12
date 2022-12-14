@@ -1,0 +1,14 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    m=[]
+    for i in arr:
+        if i not in m:
+            m.append(i)
+        m.sort(reverse=True)
+print(m[1])
+
+output:
+5
+2 3 6 6 5
+5
