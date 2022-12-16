@@ -1,0 +1,13 @@
+a = "aditya college"
+b = "ADITYA DEGREE COLLEGE"
+c = "Aditya Degree College"
+print(len(a))
+print(a.upper())
+print(b.lower())
+print(c.swapcase())
+
+output:
+14
+ADITYA COLLEGE
+aditya degree college
+aDITYA dEGREE cOLLEGE
