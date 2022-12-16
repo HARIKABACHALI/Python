@@ -1,0 +1,9 @@
+a = "Aditya@1234"
+count=0
+for i in range(len(a)):
+    if(a[i].isalpha()):
+        count=count+1
+print(count)
+
+output:
+6
