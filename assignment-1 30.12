@@ -1,0 +1,15 @@
+n=int(input())
+a=int(input())
+l=list(map(int,input().split()))
+for i in range(a) :
+    last=l[n-1]
+    for j in range (1,n) :
+        l[n-j]=l[n-(j+1)]
+    l[0]=last
+print(l)
+
+output:
+5
+3
+10 20 30 40 50
+[30, 40, 50, 10, 20]
