@@ -1,0 +1,5 @@
+list = [x for x in range(60) if x%4==0 and x%5==0]
+print(list)
+
+output:
+[0, 20, 40]
