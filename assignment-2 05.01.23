@@ -1,0 +1,15 @@
+n=int(input())
+l=list(map(int,input().split()))
+m=[]
+for i in range (0,n):
+    if l[i]%2==1:
+        m.append(l[i])
+        print(m)
+
+output:
+6
+3 12 4 17 21 11
+[3]
+[3, 17]
+[3, 17, 21]
+[3, 17, 21, 11]
